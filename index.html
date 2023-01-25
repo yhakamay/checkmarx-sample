@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Balan - Demo</title>
+  </head>
+  <body>
+    <h1 id="txt">Hello World!</h1>
+    <button>Click Me</button>
+    <p id="p"></p>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+      $("button").click(() => {
+        $("#p").text("This uses jQuery version " + jQuery().jquery);
+      });
+    </script>
+  </body>
+</html>
